@@ -94,14 +94,29 @@ El código sigue los **principios SOLID**, mejorando la mantenibilidad y extensi
 ## 📂 Estructura del Proyecto
 
 
+    BackendCoreMuebles/
+    │── src/main/java/com/example/BackendCoreMuebles/
+    │   ├── Command/              # Implementación del patrón Comando
+    │   ├── Configuraciones/      # Configuración de seguridad y CORS
+    │   ├── Controlador/          # Controladores REST
+    │   ├── Modelos/              # Clases de modelo (Entidades JPA)
+    │   ├── Repositorio/          # Interfaces de persistencia (Patrón Repositorio)
+    │   ├── Servicio/             # Lógica de negocio y aplicación de principios SOLID
+    │   ├── BackendCoreMueblesApplication.java  # Clase principal de Spring Boot
+    │── resources/
+    │   ├── application.properties  # Configuración de la base de datos
+    │── pom.xml                    # Dependencias Maven
+    │── README.md                   # Documentación del proyecto
+
+
 ---
 
 ## 🛠️ Instalación y Configuración
 
 ### 🔹 1. Clonar el repositorio
-    ```bash
-    git clone https://github.com/tu-usuario/BackendCoreMuebles.git
-    cd BackendCoreMuebles
+    
+    git clone https://github.com/AleFe2425/CoreBuenasPracticas.git
+    cd CoreBuenasPracticas
 
 ### 🔹 2. Configurar la base de datos
 - Modificar el archivo application.properties según la configuración deseada (H2, MySQL, etc.).
@@ -111,6 +126,7 @@ El código sigue los **principios SOLID**, mejorando la mantenibilidad y extensi
     mvn spring-boot:run
 
 -La API estará disponible en http://localhost:8080.
+
 
 
 
