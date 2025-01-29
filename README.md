@@ -1,4 +1,4 @@
-# 🏗️ Backend Core Muebles
+# 🏗️ Core Muebles
 
 ## 📌 Descripción del Proyecto
 **Backend Core Muebles** es una aplicación backend desarrollada en **Java con Spring Boot**, diseñada para gestionar la producción y asignación de empleados en una fábrica de muebles. La aplicación implementa **principios SOLID** y diversos **patrones de diseño**, garantizando un código modular, escalable y de fácil mantenimiento.  
